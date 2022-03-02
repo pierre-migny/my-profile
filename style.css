@@ -1,0 +1,153 @@
+body {
+    color: rgb(46, 46, 46);
+    background-color: rgb(203, 204, 206);
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: rgb(72, 105, 146);
+    transition-duration: 550ms;
+    text-shadow: 1px, 1px, 1px, black;
+}
+
+a:hover {
+    color: rgb(145, 70, 70);
+    text-shadow: 1px, 1px, 1px, white;
+}
+
+li {
+    display: inline;
+    position: center;
+}
+
+@media(min-width: 1280px)
+{
+    p {
+        text-align: justify;
+        font-size: 18px;
+    }
+
+    #copyright{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .container {
+        width: max-content;
+        margin: 0 auto;
+        align-content: center;
+    }
+
+    .simple-card {
+        background-color: rgb(30, 34, 39);
+        text-align: center;
+        background-position: center;        
+        border-radius: 8px;
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.616);
+        margin: 16px;
+        padding: 16px;
+
+    }
+
+}
+
+
+
+@media(max-width: 1280px)
+{
+    p {
+        text-align: justify;
+        font-size: 24px;
+    }
+
+    #copyright{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .container {
+        margin: none;
+     }
+
+    .simple-card {
+        width: 95%;
+        background-color: rgb(30, 34, 39);
+        text-align: center;
+        background-position: center;       
+        border-radius: 16px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.76);
+        margin: 24px auto;
+        padding: 16px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+#image6 {
+    background-image: url(images/image6.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#image5 {
+    background-image: url(images/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+
+#header {
+    background-image: url(images/header_dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    color: white;
+}
+
+
+#profile-picture {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(30, 34, 39);
+}
+
+#footer{
+    margin-top: 48px;
+    background-color: rgb(30, 34, 39);
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
